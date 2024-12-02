@@ -1,0 +1,5 @@
+ALTER TABLE discount_times
+MODIFY COLUMN dateFrom DATETIME;
+
+ALTER TABLE discount_times
+MODIFY COLUMN dateTo DATETIME;

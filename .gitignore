@@ -1,0 +1,24 @@
+.DS_Store
+.history
+node_modules/
+data_dir/
+/dist/
+/logs/
+/logsDockerfile/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+public/
+package-lock.json
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+config/local.json
+config/default.json
+
+# this file should be created on server
+config/production.json

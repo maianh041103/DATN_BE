@@ -1,0 +1,40 @@
+{
+  "mp": {
+    "username": "root",
+    "password": "root",
+    "database": "db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "max": 10,
+      "min": 0,
+      "idle": 30000,
+      "acquire": 60000
+    }
+  },
+  "auth": {
+    "secret_access_token": "secret_access_token",
+    "secret_access_token_expire": 5184000,
+    "secret_refresh_access_token": "secret_refresh_access_token",
+    "secret_refresh_access_token_expire": 2592000
+  },
+  "api": {
+    "apiServer": "http://45.76.161.185",
+    "storageFolder": "/public/upload",
+    "excelFolder": "/upload/excel",
+    "imagesFolder": "/upload/images"
+  },
+  "log_path": "logs",
+  "logger": {
+    "enabled": true
+  },
+  "language": "vi",
+  "external": {},
+  "env": "dev",
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "enableMpApi": true,
+  "enableCronJob": false
+}
